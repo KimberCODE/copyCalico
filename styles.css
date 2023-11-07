@@ -1,0 +1,56 @@
+/* This is my Twitter Logo on Left of Page */
+.LargeLogo #TwitterLogo {
+    height: 700px;
+    width: 800px;
+    background-color: beige;
+}
+#TwitterLogo {
+    /* height: 200px;
+    width: 200px; */
+    /* position: static;
+    left: 30px;
+    top: 50px; */
+}
+
+/* This is my Main Heading */
+.main-heading {
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:unset;
+    background-color:beige;
+    width: 500px;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+
+
+
+
+
+
+
+/* THIS IS MY UL  */
+.bottom-header {
+    height: 90px;
+    width: 1800px;
+    background-color: beige;
+    padding: 8px;
+}
+li {
+    display: inline-block;
+}
+a {
+    padding: 10px 8px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    /* vertical-align: middle; */
+    /* text-wrap: wrap; */
+
+    /* NEED TO FIND OUT HOW TO WRAP TEXT AND CENTER */
+}
+li:hover{
+    text-decoration: underline;
+}
