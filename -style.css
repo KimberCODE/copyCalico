@@ -1,0 +1,60 @@
+#topBar{
+    height: 50px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.rightTopContainer{
+    margin-left: 60vw;
+    display: inline-block;
+    position: relative;
+    top: -38px;
+}
+
+.rightTopContainer > *{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.signIn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #4285f4;
+    color: white;
+}
+
+#google{
+    position: relative;
+    top: 20vh;
+    left: 30vw;
+}
+
+#search{
+    position: relative;
+    top: 25vh;
+    left: -60px;
+    height: 45px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.buttons{
+    position: relative;
+    top: 30vh;
+    left: 30vw;
+}
+
+.button{
+    display: inline-block;
+    margin: 25px;
+    background-color: rgba(248, 247, 247, 0.871);
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
