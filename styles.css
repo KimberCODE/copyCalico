@@ -4,8 +4,9 @@ body {
 .card {
     height: 225px;
     width: 225px;
+    margin-top: 8px;
     background-color: rgb(249, 249, 249);
-    box-shadow: 3px 3px 3px 1px rgb(204, 207, 208);
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);;
     border-radius: 5px;
     left: 15%;
     top: 18%;
@@ -14,8 +15,8 @@ body {
 }
 
 img {
-    height: 20px;
-    width: 100px;
+    height: 25px;
+    width: 110px;
     left: 35%;
     top: 10%;
     position: absolute;
@@ -32,7 +33,7 @@ p {
 }
 
 input {
-    height: 20px;
+    height: 23px;
     width: 195px;
     padding: 3px;
     margin: 3px;
@@ -40,9 +41,13 @@ input {
     border: 1px rgb(221,223,226) solid;
 }
 
+/* input:focus{
+    border: none;
+} */
+
 .log {
-    height: 20px;
-    width: 202px;
+    height: 22px;
+    width: 203px;
     padding: 3px;
     margin-left: 8px;
     margin-top: 4px;
@@ -56,13 +61,38 @@ input {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 12px;
+
 }
 
 #account {
     font-size: 8px;
     text-decoration: none;
+    color:dodgerblue;
 }
 
 #account:hover{
     text-decoration: underline;
 }
+
+#create {
+    height: 25px;
+    width: 110px;
+    padding-top: 3px;
+    margin-left: 25%;
+    margin-top: 25px;
+    border-radius: 4px;
+    background-color: rgb(66,183,42);
+}
+
+#create:hover{
+    background-color: rgb(38, 171, 38);
+}
+
+#createNew {
+    color: white;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
